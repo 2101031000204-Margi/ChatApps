@@ -11,12 +11,14 @@ import { ImageControlComponent } from './image-control/image-control.component';
 import{MatButtonModule} from '@angular/material/button';
 import{MatDialogModule} from '@angular/material/dialog';
 import{HttpClientModule} from '@angular/common/http';
+import { MessageComponent } from './message/message.component';
 @NgModule({
   declarations: [
     AppComponent,
     PhotoComponent,
     ImageCropComponent,
     ImageControlComponent,
+    MessageComponent,
     
   ],
   imports: [
